@@ -16,7 +16,8 @@ export function useProject() {
         {pjname : 'personal-portfolio-template', type : 'bootstrap',  asset : 'personal-portfolio.png' , live : 'https://personal-portfolio-template.vercel.app', 'git-hub' : 'https://github.com/SwanPyaeSone999/personal-portfolio-template'  },
         {pjname : 'samplelandingpage', type : 'bootstrap',  asset : 'samplelanding.png', live : 'https://sample-landing-page-one.vercel.app', 'git-hub' : 'https://github.com/SwanPyaeSone999/sample-landing-page'   },
         {pjname : 'lara-movie-app', type : 'laravel',  asset : 'lara-movie-app.png', live : 'https://laravel-movie-app.vercel.app', 'git-hub' : 'https://github.com/SwanPyaeSone999/movie-app-demo'  },
-        {pjname : 'vue-lara-movie-app', type : 'laravel',  asset : 'vue-lara-movie-app.png'  },
+        {pjname : 'vue-lara-movie-app', type : 'laravel',  asset : 'vue-lara-movie-app.png' , live : 'https://vue-lara-movie-demo.herokuapp.com/',   },
+        {pjname : 'gego-blog-app', type : 'laravel', asset : 'gego-blog.png' , live : 'https://gego-blog.herokuapp.com/' , 'git-hub' : 'https://github.com/SwanPyaeSone999/gego-blog' },
     ]);
     return { projects, }
   }
